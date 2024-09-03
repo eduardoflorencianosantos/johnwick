@@ -1,0 +1,122 @@
+/* Parte visual do body */
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Estrutura do grid */
+body {
+    display: grid;
+    grid-template-areas:
+        "cc cc cc"
+        "bb rr rr"
+        "pp pp pp";
+    grid-gap: 20px;
+    grid-template-columns: auto auto 30%;
+}
+
+.cabeca {
+    grid-area: cc;
+}
+
+.corpo {
+    grid-area: rr;
+}
+
+.braco {
+    grid-area: bb;
+}
+
+.pe {
+    grid-area: pp;
+}
+
+/*------------------------------------------------------------------------*/
+/* Parte visual do header */
+header {
+    background-color: red;
+    color: white;
+}
+
+/* Alterações da imagem */
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Alterações do h2 do header e do footer */
+h2 {
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Parte visual do título */
+h1 {
+    color: yellow;
+}
+
+/* Alterações do título */
+h1 {
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Parte visual do parágrafo */
+p {
+    color: white;
+}
+
+/* Alteração da do lugar da parágrafo */
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Parte visual da lista */
+li {
+    color: white;
+}
+
+/* Alteração da do lugar da lista */
+li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Alterações do poster */
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Parte visual do figcaption */
+figcaption {
+    color: white;
+}
+
+/* Alterações do figcaption */
+figcaption {
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Parte visual do footer */
+footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+/* Alterações da imagem */
+footer img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
